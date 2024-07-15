@@ -36,7 +36,7 @@ body {
 
 .tabs_bottom_part {
     width: 100%;
-    min-height: 150px;
+    min-height: 250px;
     padding: 20px;
     line-height: 150%;
     border: 2px solid black;
@@ -70,4 +70,25 @@ body {
 .activeTab {
     background-color: rgb(189, 254, 254) !important;
     border-bottom-color: rgb(189, 254, 254) !important;
+}
+
+@media (max-width: 645px) {
+    .tabs_upper_part div {
+        padding: 20px 10px;
+        font-size: 12.5px;
+    }
+}
+
+@media (max-width: 490px) {
+    .tabs_upper_part div {
+        padding: 20px 5px;
+        font-size: 10.5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .tabs_upper_part div {
+        padding: 20px 4px;
+        font-size: 9.5px;
+    }
 }

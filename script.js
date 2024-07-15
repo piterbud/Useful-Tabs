@@ -12,7 +12,7 @@ function changeTab() {
     document.querySelector(`[data-tab="${chosenTab}"]`).classList.add('activeTab');
 
     tabsTexts.forEach(item => {
-        item.style.display = "none"
+        item.style.display = "none";
         if (chosenTab === item.dataset.text) {
             item.style.display = "block";
         }
